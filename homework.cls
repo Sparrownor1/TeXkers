@@ -4,7 +4,7 @@
 
 % Spacing
 \RequirePackage[onehalfspacing]{setspace}
-\newcommand{\hmargin}{4cm}
+\newcommand{\hmargin}{2cm}
 \newcommand{\vmargin}{3cm}
 \setlength{\parindent}{0in}
 \setlength{\parskip}{10pt}
@@ -76,13 +76,17 @@
 \newcommand{\I}{\mathbb{I}}
 \newcommand{\U}{\mathcal{U}}
 
+% Math expressions
+\newcommand{\floor}[1]{\lfloor #1 \rfloor}
+\newcommand{\ceil}[1]{\ceil #1 \ceil}
+
 % Probability
 \newcommand{\E}[1]{\mathbb{E} \left[ #1 \right] }
 \renewcommand{\P}[1]{\mathbf{P} \, \{ #1 \} }
 \newcommand{\Var}[1]{\mathsf{Var} ( #1 )}
 
 % Phrases
-\newcommand{\Wlogt}{without loss of generality}
+\newcommand{\Wlogt}{Without loss of generality}
 \newcommand{\wlogt}{without loss of generality}
 \newcommand{\St}{Such that}
 \newcommand{\st}{such that }
