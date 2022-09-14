@@ -4,7 +4,7 @@
 
 % Spacing
 \RequirePackage[onehalfspacing]{setspace}
-\newcommand{\hmargin}{2cm}
+\newcommand{\hmargin}{1.5cm}
 \newcommand{\vmargin}{3cm}
 \setlength{\parindent}{0in}
 \setlength{\parskip}{10pt}
