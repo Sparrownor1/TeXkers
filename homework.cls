@@ -82,8 +82,8 @@
 
 % Probability
 \newcommand{\E}[1]{\mathbb{E} \left[ #1 \right] }
-\renewcommand{\P}[1]{\mathbf{P} \, \{ #1 \} }
-\newcommand{\Var}[1]{\mathsf{Var} ( #1 )}
+\renewcommand{\P}[1]{\mathbf{P} \, \left\{ #1 \right\} }
+\newcommand{\Var}[1]{\mathsf{Var} \left( #1 \right)}
 
 % Phrases
 \newcommand{\Wlogt}{Without loss of generality}
