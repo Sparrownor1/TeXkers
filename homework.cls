@@ -56,6 +56,7 @@
 % Other Packages
 % 
 \RequirePackage{amsmath}
+\RequirePackage{amssymb}
 \RequirePackage{enumerate}
 
 %
@@ -81,9 +82,10 @@
 \newcommand{\ceil}[1]{\ceil #1 \ceil}
 
 % Probability
-\newcommand{\E}[1]{\mathbb{E} \left[ #1 \right] }
+\newcommand{\E}[1]{\mathbf{E} \left[ #1 \right] }
 \renewcommand{\P}[1]{\mathbf{P} \, \left\{ #1 \right\} }
 \newcommand{\Var}[1]{\mathsf{Var} \left( #1 \right)}
+\newcommand{\comp}[1]{\overline{#1}}
 
 % Phrases
 \newcommand{\Wlogt}{Without loss of generality}
