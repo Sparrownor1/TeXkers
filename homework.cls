@@ -84,7 +84,7 @@
 % Probability
 \newcommand{\E}[1]{\mathbf{E} \left[ #1 \right] }
 \renewcommand{\P}[1]{\mathbf{P} \, \left\{ #1 \right\} }
-\newcommand{\Var}[1]{\mathsf{Var} \left( #1 \right)}
+\newcommand{\Var}[1]{\text{Var} \left( #1 \right)}
 \newcommand{\comp}[1]{\overline{#1}}
 
 % Phrases
