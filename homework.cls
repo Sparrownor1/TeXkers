@@ -90,9 +90,10 @@
 % Phrases
 \newcommand{\Wlogt}{Without loss of generality}
 \newcommand{\wlogt}{without loss of generality}
-\newcommand{\St}{Such that}
-\newcommand{\st}{such that }
+\newcommand{\St}{\text{Such that}}
+\newcommand{\st}{\text{ such that }}
 \newcommand{\Afsoc}{Assume for the sake of contradiction}
+\newcommand{\afsoc}{assume for the sake of contradiction }
 
 % Code
 \newcommand{\code}[1]{\texttt{#1}}
