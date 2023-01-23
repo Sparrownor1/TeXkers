@@ -57,7 +57,11 @@
 % 
 \RequirePackage{amsmath}
 \RequirePackage{amssymb}
+\RequirePackage{physics}
 \RequirePackage{enumerate}
+\RequirePackage{tikz}
+\RequirePackage{graphicx}
+
 
 %
 % Commands
