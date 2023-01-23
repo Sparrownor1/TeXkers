@@ -19,6 +19,7 @@
 \def\andrewid{slumba}
 \def\thisassignment{Homework}
 \def\thisclass{Class}
+\def\collaborators{}
 
 \define@key{homework.cls}{myname}[Sachit Lumba]{
     \def\myname{#1}
@@ -32,8 +33,11 @@
 \define@key{homework.cls}{thisclass}[Class]{
     \def\thisclass{#1}
 }
+\define@key{homework.cls}{collaborators}[]{
+    \def\collaborators{#1}
+}
 
-\ExecuteOptionsX{myname, myandrewid, thisassignment, thisclass}
+\ExecuteOptionsX{myname, myandrewid, thisassignment, thisclass, collaborators}
 \ProcessOptionsX
 
 % Header
@@ -48,7 +52,7 @@
     \begin{titlepage}
         \title{\textbf{\thisassignment}}
         \date{\today}
-        \author{\myname}
+        \author{\myname\thanks{I worked with \collaborators}}
     \end{titlepage}
 }
 
