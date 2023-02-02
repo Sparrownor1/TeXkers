@@ -108,3 +108,12 @@
 
 % Algorithms
 \RequirePackage{algpseudocode}
+
+% Philosophy
+\RequirePackage{xcolor,colortbl, array}
+
+\newenvironment{deduction}
+  {\begin{tabular}{@{}>{}c<{}@{\enspace}>{}l<{}@{}}}
+  {\end{tabular}}
+\newcommand{\premise}[1]{&#1\\}
+\newcommand{\conclusion}[1]{\cline{2-2}&#1}
