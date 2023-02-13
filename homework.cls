@@ -14,6 +14,7 @@
 
 % Parameters
 \RequirePackage{xkeyval}
+\RequirePackage{ifthen}
 
 \def\myname{Sachit Lumba}
 \def\andrewid{slumba}
@@ -52,7 +53,14 @@
     \begin{titlepage}
         \title{\textbf{\thisassignment}}
         \date{\today}
-        \author{\myname\thanks{I worked with \collaborators}}
+        \author{
+            \myname
+            \ifthenelse{
+                \equal{\collaborators}{}
+                }{}{
+                \thanks{I worked with \texttt{\collaborators}}
+                }
+        }
     \end{titlepage}
 }
 
@@ -61,6 +69,7 @@
 % 
 \RequirePackage{amsmath}
 \RequirePackage{amssymb}
+\RequirePackage{amsthm}
 \RequirePackage{physics}
 \RequirePackage{enumerate}
 \RequirePackage{tikz}
@@ -73,7 +82,6 @@
 
 % Questions and Answers
 \newcommand{\question}[1]{\section*{Question #1}}
-\newcommand{\proof}[1]{\subsection*{Proof}}
 \newcommand{\claim}[1]{\textbf{Claim:} #1}
 
 % Sets
